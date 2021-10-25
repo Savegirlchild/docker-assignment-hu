@@ -1,0 +1,6 @@
+version: '2'
+services:
+  apache:
+    image: docker.io/bitnami/apache:2.4
+    ports:
+      - 2000:8080
